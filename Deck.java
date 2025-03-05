@@ -74,4 +74,11 @@ class Deck {
     }
     }
 
+    // Method to shuffle the deck
+    public void shuffleDeck() {
+    Collections.shuffle(deck);
+    }
+
+    
+
 }
