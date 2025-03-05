@@ -25,7 +25,7 @@
 
 ## How to Run
 <ol>
-<li>git clone https://github.com/scitech-butterfly/Card-Deck.git</li>
+<li>git clone https://github.com/rayl-tanmay2/Card_Deck.git</li>
 
 <li>cd Card_Deck</li>
 
