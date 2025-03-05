@@ -5,7 +5,7 @@ class Deck {
     ArrayList<Card> deck;
     public Deck() {
   this.deck = new ArrayList<>();
- }
+ }//Method to create a deck
     public void createDeck() {
   String[] ranks = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A" };
   String[] suits = { "Clubs", "Diamonds", "Hearts", "Spades" };
@@ -14,6 +14,12 @@ class Deck {
    for (String suit : suits) {
     deck.add(new Card(rank, suit));
    }
+  }
+ }
+   // Method to print a deck
+    public void printDeck() {
+        for (Card card : deck) {
+        System.out.println(card);
   }
  }
 
