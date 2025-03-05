@@ -1,6 +1,10 @@
 // Deck.java
 
+
 import java.util.ArrayList;
+import java.util.Collections;
+
+
 class Deck {
     ArrayList<Card> deck;
     public Deck() {
@@ -59,6 +63,15 @@ class Deck {
     }
     System.out.println("Card not found!");
     return false;
+    }
+
+    // Deal 5 random cards from the deck
+    public void dealCard() {
+    System.out.println("Dealing 5 random cards:");
+    Collections.shuffle(deck);
+    for (int i = 0; i < 5 && !deck.isEmpty(); i++) {
+    System.out.println(deck.remove(0)); // Remove and print
+    }
     }
 
 }
